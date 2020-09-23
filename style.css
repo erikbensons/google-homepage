@@ -75,13 +75,16 @@ main img {
 }
 
 main input {
-    width: 50vw;
-    height: 5vh;
+    width: 35vw;
+    height: 5.7vh;
     border-radius: 100px;
     border-width: 1px;
     border-color: #e1e2e6;
     border-style: solid;
-    font-size: 20px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #2d2d2d;
 }
 
 main input:focus {
@@ -107,6 +110,7 @@ main button {
 main button:hover {
     border-style: solid;
     border-width: 1px;
+    border-color: #b2b2b2;
 }
 
 #align {
@@ -139,9 +143,8 @@ footer {
 }
 
 footer div {
-    background-color: blue;
     min-width: 100%;
-    height: 5vh;
+    height: 5.5vh;
     background-color: #f4f4f4;
     border-top: 1px solid #e7e7e7;
     display: flex;
