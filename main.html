@@ -2,27 +2,42 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+
+        <title>Google</title>
     </head>
     
     <body>
         <nav>
             <ul>
-                <li>Gmail</li>
-                <li>Images</li>
-                <li>9 squares</li>
-                <li>Profile</li>
+                <li>
+                    <a class="images-option" href="https://mail.google.com">Gmail</a>
+                </li>
+
+                <li>
+                    <a class="images-option" href="https://images.google.com">Images</a>
+                </li>
+
+                <li>
+                    <a><img class="grid" src="https://icon-library.net/images/google-menu-icon/google-menu-icon-2.jpg" alt="App Menu Icon"></a>
+                </li>
+
+                <li>
+                    <a><img class="profile" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTSfEMfC3BVVRmpVYOeSD_YtTplU2sJKUc9Gg&usqp=CAU" alt="Google Profile"></a>
+                </li>
             </ul>
         </nav>
 
         <main>
-            <form>
-                <img src="https://viseo.se/wp-content/uploads/2020/04/hur-fungerar-google.png" alt="google logo"><br>
-                <input type="text">
-                <button>Google Search</button>
-                <button>I'm Feeling Lucky</button>
-            </form>
+            <div>
+                <form>
+                    <img src="https://viseo.se/wp-content/uploads/2020/04/hur-fungerar-google.png" alt="google logo"><br>
+                    <input type="text"><br>
+                    <button id="align">Google Search</button>
+                    <button>I'm Feeling Lucky</button>
+                </form>
 
-            <p>Google offered in: <a href="">Svenska</a></p>
+                <p>Google offered in: <a href="">Svenska</a></p>
+            </div>
         </main>
 
         <footer>
@@ -30,20 +45,18 @@
                 <p>Sweden</p>
             </div>
 
-            <div id="footerA">
+            <div id="bottom-footer">
                 <ul>
-                    <li>Advertising</li>
-                    <li>Business</li>
-                    <li>About</li>
-                    <li>How Search works</li>
+                    <li><a href="https://ads.google.com/intl/en_se/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertisting</a></li>
+                    <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a></li>
+                    <li><a href="https://about.google/?utm_source=google-SE&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a></li>
+                    <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a></li>
                 </ul>
-            </div>
 
-            <div id="footerB">
-                <ul>
-                    <li>Privacy</li>
-                    <li>Terms</li>
-                    <li>Settings</li>
+                <ul id="right">
+                    <li><a href="https://policies.google.com/privacy?hl=en-SE&fg=1">Privacy</a></li>
+                    <li><a href="https://policies.google.com/terms?hl=en-SE&fg=1">Terms</a></li>
+                    <li><a href="https://www.google.com/preferences?hl=en-SE&fg=1">Settings</a></li>
                 </ul>
             </div>
         </footer>
